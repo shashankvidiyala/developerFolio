@@ -11,26 +11,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shashank Vidiyala",
+  title: "Namaste I am Shashank Vidiyala, you can also call me Shanks",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am currently a Grad student at Virginia Tech, I love and I am heavily passionate in Fullstack development 🌐  and Deep Learning 🧠 also I love coffee ☕ and One Piece ☠️"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1XOD-V9puVXlfqKnN31thM4s5zlHB8M5I/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/shashankvidiyala/",
+  linkedin: "https://www.linkedin.com/in/shashankvidiyala/",
+  gmail: "s19v1997@gmail.com@gmail.com",
+  // instagram:"",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -39,15 +36,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I am Good at",
+  subTitle: "I love Full Stack development and keenly interested in the designs of very complex large systems, I am also currently working on Social Media Analytics with emphasis on CNN's and sentiment analysis",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🌟 I have worked as a founding software engineer in many projects, I am profiecient in creating and developing new modules and features from scratch "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("🌟 Love to solve problems with the application of new technologies, I actively sovlve problems on Kaggle and participate weekly codeForces competitions"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        `Other Technologies -: Redux, Nomad, DropWizard, Pytourch, Oracle CC&B, Angular and Django`
     )
   ],
 
@@ -76,12 +73,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "AI & Deep Learning",
+      fontAwesomeClassname:"fas fa-robot"
     },
     {
       skillName: "npm",
@@ -106,7 +99,12 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname:"fab fa-jenkins"
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -117,23 +115,32 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Virginia Polytechnic Institute and State University (Virginia Tech)",
+      id:'vt',
+      logo: require("./assets/images/virginiatechseal.png"),
+      subHeader: "Master of Engineering in Computer Science",
+      duration: "August 2021 -  December 2022",
+      desc: "GPA 4.0/4.0, Specialization in AI and Machine Learning",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Notable Courses : Deep Learning, Advanced Machine Learning and Software Engineering",
+        "Research : Sentiment Analysis and Polarized groups detection in social media using Convolutional Neural Networks",
+        "Extra-Curricular Activities : Substitute Player for VT E-Sports Dota 2 Team"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Chaitanya Bharathi Institute of Technology",
+      id:'cbit',
+      logo: require("./assets/images/cbitlogo.png"),
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "August 2015 - June 2019",
+      desc: "GPA 8.7/10, Was awarded best major project for the year 2019",
+      descBullets: [
+        "Graduated by being top 5% of the whole class",
+        "Executive Board member of Information Security Club and Opensource Software contribution club",
+        "Was Teaching Assitant for Data Structures and Algorithms for two semesters",
+        "Deputy Head of Design for Universty Model United Nations",
+        "Head of Project Tic Tac Toe for college's Technical Fest Sudhee"
+      ]
     }
   ]
 };
@@ -145,15 +152,20 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
+    {
+      Stack: "Machine Learning and Data Mining", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    
     {
       Stack: "Backend",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Programming and Problem Solving",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -166,28 +178,29 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Oracle",
+      companylogo: require("./assets/images/oracleLogo.png"),
+      date: "June 2019 – July 2021",
+      desc: "Founding Software Engineer For Product DSS (Digital Self Service)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked as a Full Stack Developer with Tech Stack as React--Java(DropWizard)--Oracle CC&B--Nomad",
+        "Developed several react components and widgets for the project including taking complete ownership for Payment Plans, Invite Guest User and Billing and Payment Programs",
+        "Created and Designed REST API's for Payment Plans and Charity Payments API's",
+        "Worked in a Scrum Team, also took the responsibility of being secondary scrum master",
+        "Specialized in writing generic and highly customizable software compoents"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android Development Intern",
+      company: "DBS (Development Bank of Singapore)",
+      companylogo: require("./assets/images/dbsLogo.png"),
+      date: "June 2018 – Aug 2018",
+      desc: "Android Developer for Mobile Banking App",
+      descBullets: [
+        "Worked on Carousel Component for mobile banking application which is used to display promotions of interest to the user",
+        "Developed various UI screens for the onboarding module (the flow when user tries to create account/link account first time)",
+        "Developed and Designed package for validation of user fields (PAN number validation, Credit Card Validation, Name validation etc.)"
+      ]
     }
   ]
 };
@@ -196,39 +209,55 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "My Projects and Projects that I have worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Oracle Utilities Digital Self Service",
+      projectDesc: "Digital Self Service - Transactions includes a suite of digital experiences that empowers customers to perform self-service transactions on any desktop or mobile device and reduces cost to serve. The responsive design allows customers to complete all transactions on any device or screen size and orientation and ensures a consistent brand experience across access channels",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://docs.oracle.com/en/industries/utilities/digital-self-service/dss-t-index.html"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Sentiment Classification using Convolutional Neural Network",
+      projectDesc: ` Current Research Project, Aim of the research is to tag a social media post as either
+       hateful,neutral and positive using varoius post features like media (image,gif,video etc.), title,usename,karma,
+       likes dislikes, comments etc. The current deep learning model is being trained using Reddit Posts data fetched 
+       using Reddit open AI and manually labelled by 6 fellow researchers and volutneers. The media classification is
+       done with the help of CNN more particularly the CNN which used VGG19 architecture. `,
+      
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Automatic Grading of Computer Programs with use of Semantic Analysis",
+      projectDesc: ` Major Research for my bachelor's degree. The aim of the research was to create an AI which grades computer programs
+      (particularly for Data Structures and C Programming course) just like how an instructor grades i.e focus on the logic of the code
+      rather than the checking whether a code passes few test cases. To perform this an AI program in python was written which compares the
+      Program Definition Graph of a correct program (instructor's program) and students program and focus on the different blocks of code which
+      constitute a logic and grade the program and gives feedback after grading just like an instructor`,
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "White Paper",
+          url: "http://stradresearch.org/Volume-8-Issue-6-2021/"
         }
+        //  you can add extra buttons here.
       ]
-    }
+      
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -288,7 +317,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -312,7 +341,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,7 +360,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -344,21 +373,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "I am currently looking for summer internship and Full time Sofware Engineering and Data Scientist roles",
+  number: "+1-540-824-8709",
+  email_address: "s19v1997@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Shanks__56", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
